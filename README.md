@@ -25,8 +25,11 @@ Alibaba nacos使用derby数据库存在sql注入,可直接执行sql查询相关�
 
 
 漏洞版本：
-nacos企业版 2.0.3以下
+nacos企业版 2.0.3
 ![image](https://github.com/ranhn/Nacos/assets/107679328/661ddf2c-efba-4231-be05-7e87b00cc30f)
+
+derby数据库版本 10.14.2.0
+![image](https://github.com/ranhn/Nacos/assets/107679328/8cbd15bc-7664-408c-a240-eab331fc81cb)
 
 
 
