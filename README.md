@@ -37,6 +37,8 @@ derby数据库版本 10.14.2.0
 
 
 修复建议：
+
+
 1,为了防止 SQL 注入攻击，应该采取参数化查询等安全措施来处理用户输入的 SQL 查询。
 
 2,使用手动配置数据库，在 Nacos 的配置文件中，可以通过属性来指定使用的数据库类型，例如：application.propertiesspring.datasource.platform
@@ -44,7 +46,9 @@ spring.datasource.platform=mysql
 
 同时，还需要配置数据库的连接信息，例如：
 spring.datasource.url=jdbc:mysql://localhost:3306/nacos?characterEncoding=utf8&connectTimeout=1000&socketTimeout=3000&autoReconnect=true
+
 spring.datasource.username=root
+
 spring.datasource.password=xxxxxxx
 
 以上示例配置了使用 MySQL 数据库，并指定了连接信息。
